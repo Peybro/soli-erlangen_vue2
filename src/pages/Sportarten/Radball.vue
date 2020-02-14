@@ -92,8 +92,8 @@
 
 <script>
 import Trainer from "@/components/Trainer.vue";
-import BeneSebi from "@/components/teams/Bene-Und-Sebi.vue";
-import TobiMoritz from "@/components/teams/Tobi-Und-Moritz.vue";
+// import BeneSebi from "@/components/teams/Bene-Und-Sebi.vue";
+// import TobiMoritz from "@/components/teams/Tobi-Und-Moritz.vue";
 
 export default {
   components: {
