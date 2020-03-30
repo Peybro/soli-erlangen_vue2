@@ -3,7 +3,11 @@
     <p v-for="blatt in vereinsblatt" :key="blatt.year">
       <b-link :href="blatt.link1">{{blatt.year}}_1</b-link>
       <br />
-      <b-link :href="blatt.link2">{{blatt.year}}_2</b-link>
+      <b-link
+        :href="blatt.link2"
+        :class="blatt.link2===''?'text-danger':'text-primary'"
+        :disabled="blatt.link2!==''"
+      >{{blatt.year}}_2</b-link>
     </p>
   </div>
 </template>
@@ -118,6 +122,12 @@ export default {
             "https://www.soli-erlangen.de/assets/vereinsblatt/soli_info_2019_1.pdf",
           link2:
             "https://www.soli-erlangen.de/assets/vereinsblatt/soli_info_2005_2.pdf"
+        },
+        {
+          year: 2020,
+          link1:
+            "https://www.soli-erlangen.de/assets/vereinsblatt/soli_info_2020_1.pdf",
+          link2: ""
         }
       ]
     };
@@ -159,3 +169,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+a.disabled {
+  pointer-events: none;
+}
+</style>
