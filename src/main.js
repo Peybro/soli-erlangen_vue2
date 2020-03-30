@@ -252,7 +252,7 @@ new Vue({
         ort: "Herzogenaurach",
         telefon: "",
         mobil: "0176 / 32843418",
-        mail: "janice.haeusinger93@t-online.de"
+        mail: "janice.93haeusinger@t-online.de"
       },
       turnen: {
         link: "kinderturnen",
