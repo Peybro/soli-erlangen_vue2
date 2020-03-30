@@ -33,6 +33,21 @@ export default {
       sliding: null,
       karusell: [
         {
+          caption: "Alles im Grünen Bereich",
+          text:
+            "Unsere erfolgreiche Radballgruppe nach dem Sieg der Bayerischen Meisterschaft in Burgkunstadt",
+          src:
+            "https://soli-erlangen.de/assets/slideshow/Bayerischer_Meister_U17_2020_Team.jpeg",
+          alt: "Radball Gruppe bei Bayerischer Meisterschaft"
+        },
+        {
+          caption: "4er Reigen beim Aufwärmen",
+          text: "",
+          src:
+            "https://soli-erlangen.de/assets/slideshow/reigen_4er_warmup.jpg",
+          alt: "4er Reigen beim Aufwärmen"
+        },
+        {
           caption: "Ehrung vom Bürgermeister",
           text:
             "Benedikt und Sebastian bekommen von OB Janik eine Ehrennadel überreicht.",
@@ -44,14 +59,9 @@ export default {
           caption: "5. in ganz Deutschland!",
           text:
             "Im Finale der Deutschen Meisterschaft 2018 U15 in Worms haben sich unsere Jungs dem 5. Platz in ganz Deutschland gesichert.",
-          src: "https://soli-erlangen.de/assets/slideshow/radball_dm_2018_finale.jpg",
+          src:
+            "https://soli-erlangen.de/assets/slideshow/radball_dm_2018_finale.jpg",
           alt: "5. Platz bei DM U15 2018"
-        },
-        {
-          caption: "4er Reigen beim Aufwärmen",
-          text: "",
-          src: "https://soli-erlangen.de/assets/slideshow/reigen_4er_warmup.jpg",
-          alt: "4er Reigen beim Aufwärmen"
         },
         {
           caption: "Nachwuchsradballer",
