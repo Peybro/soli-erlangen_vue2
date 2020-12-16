@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p v-for="blatt in vereinsblatt" :key="blatt.year">
+    <b-alert v-for="blatt in vereinsblatt" :key="blatt.year">
       <b-link :href="blatt.link1">{{blatt.year}}_1</b-link>
       <br />
       <b-link
@@ -8,7 +8,7 @@
         :class="blatt.link2===''?'text-danger':'text-primary'"
         :disabled="blatt.link2!==''"
       >{{blatt.year}}_2</b-link>
-    </p>
+    </b-alert>
   </div>
 </template>
 
