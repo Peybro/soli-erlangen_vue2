@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
+    <Corona></Corona>
     <router-view></router-view>
     <Footer></Footer>
   </div>
@@ -9,12 +10,14 @@
 <script>
 import Navigation from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
+import Corona from "./components/Corona"
 
 export default {
   name: "app",
   components: {
     Navigation,
-    Footer
+    Footer,
+    Corona
   },
   head: {
     title: {
