@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
+    <Xmas v-if="showChristmasGreetings"></Xmas>
     <Corona></Corona>
     <router-view></router-view>
     <Footer></Footer>
@@ -10,18 +11,20 @@
 <script>
 import Navigation from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-import Corona from "./components/Corona"
+import Corona from "@/components/Corona.vue";
+import Xmas from "@/components/Xmas.vue";
 
 export default {
   name: "app",
   components: {
     Navigation,
     Footer,
-    Corona
+    Corona,
+    Xmas,
   },
   head: {
     title: {
-      inner: "Home"
+      inner: "Home",
     },
     // Meta tags
     meta: [
@@ -30,10 +33,16 @@ export default {
       {
         name: "keywords",
         content:
-          "solidarität, erlangen, radball, kunstrad, reigen, einrad, gymnastik, kinder, jugend, tanzen, turnen"
-      }
-    ]
-  }
+          "solidarität, erlangen, radball, kunstrad, reigen, einrad, gymnastik, kinder, jugend, tanzen, turnen",
+      },
+    ],
+  },
+  computed: {
+    showChristmasGreetings() {
+      const now = new Date();
+      return now.getMonth() === 11;
+    },
+  },
 };
 </script>
 
