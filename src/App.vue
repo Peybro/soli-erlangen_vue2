@@ -1,26 +1,20 @@
 <template>
   <div id="app">
-    <Navigation></Navigation>
-    <Xmas v-if="showChristmasGreetings"></Xmas>
-    <Corona></Corona>
+    <Header />
     <router-view></router-view>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Navigation from "@/components/Nav.vue";
+import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Corona from "@/components/Corona.vue";
-import Xmas from "@/components/Xmas.vue";
 
 export default {
   name: "app",
   components: {
-    Navigation,
+    Header,
     Footer,
-    Corona,
-    Xmas,
   },
   head: {
     title: {
@@ -36,13 +30,7 @@ export default {
           "solidarität, erlangen, radball, kunstrad, reigen, einrad, gymnastik, kinder, jugend, tanzen, turnen",
       },
     ],
-  },
-  computed: {
-    showChristmasGreetings() {
-      const now = new Date();
-      return now.getMonth() === 11;
-    },
-  },
+  }
 };
 </script>
 
