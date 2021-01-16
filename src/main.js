@@ -97,6 +97,7 @@ const router = new VueRouter({
   routes,
   //   nur wenn Server dafür konfiguriert ist:
   mode: "history",
+  base: process.env.BASE_URL,
 });
 
 Vue.config.productionTip = false;
