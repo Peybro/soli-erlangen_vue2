@@ -10,9 +10,6 @@
         <div class="col-9 container">
           <h2 class="section">Kunstrad</h2>
           <b-alert show variant="primary">
-            <router-link to="/sportarten">
-              <i class="material-icons m-2 float-right">alarm</i>
-            </router-link>
             <p>Dienstag: 18:00 - 19:30 Uhr</p>
           </b-alert>
 

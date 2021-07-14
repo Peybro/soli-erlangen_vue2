@@ -10,12 +10,9 @@
         <div class="col-9 container">
           <h2 class="section">Radball</h2>
           <b-alert show variant="primary">
-            <router-link to="/sportarten">
-              <i class="material-icons m-2 float-right">alarm</i>
-            </router-link>
             <p>Donnerstag: 19:30 - 22:00 Uhr</p>
-            <p>Freitag: 17:30 - 18:45 Uhr (Kinder)</p>
-            <p>Freitag: 17:30 - 21:00 Uhr (Jugend)</p>
+            <p>Freitag: 16:30 - 18:00 Uhr (Kinder)</p>
+            <p>Freitag: 18:00 - 19:30 Uhr (Jugend)</p>
           </b-alert>
           <b-card no-body>
             <p>Radball gehört zur Sparte des Hallenradsports. Zwei Teams versuchen, den Ball mit Hilfe eines Radballrandes möglichst oft im Tor des Gegeners unterzubringen.</p>

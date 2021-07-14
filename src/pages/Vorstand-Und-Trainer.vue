@@ -6,15 +6,10 @@
         <b-col md="5">
           <b-card
             title="Unsere Geschäftsführung"
-            sub-title="vl: Veit, Ralf, Brigitte, René"
-            img-src="https://www.soli-erlangen.de/Bilder/Archiv/2018%20in%20a%20Nutshell/Neuer%20Vorstand.jpg"
-            img-alt="Vorstand"
-            img-top
-            tag="picture"
             style="max-width: 20rem;"
             class="mr-2 mb-2"
           >
-            <b-card-text>Am 9. Oktober 2017 hat der Verein nach 2 Jahren einen neuen Vorstand gewählt.</b-card-text>
+            <b-card-text>Am 14. Juli 2021 hat der Verein nach 3 Jahren einen neuen Vorstand gewählt.</b-card-text>
             <b-button @click="meGusta()" :variant="!liked?'primary':'danger'" class="float-right">
               {{ liked ? 'Gefällt mir doch nicht:' : 'Gefällt mir:' }}
               <b-badge variant="light">{{ this.likes }}</b-badge>

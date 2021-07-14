@@ -7,7 +7,7 @@
           <Kontakt class="col-3 border-right"></Kontakt>
           <div class="col-9">
             <Karusell class="container mb-3"></Karusell>
-            <Termine></Termine>
+            <!-- <Termine></Termine> -->
           </div>
         </div>
       </div>
@@ -17,8 +17,8 @@
         <Karusell></Karusell>
         <hr>
         <Kontakt class="mt-3"></Kontakt>
-        <hr>
-        <Termine class="mt-3"></Termine>
+        <!-- <hr>
+        <Termine class="mt-3"></Termine> -->
       </div>
     </div>
   </div>
@@ -27,13 +27,13 @@
 <script>
 import Kontakt from "@/pages/Kontakt.vue";
 import Karusell from "@/components/Karusell-Home.vue";
-import Termine from "@/pages/Termine.vue";
+// import Termine from "@/pages/Termine.vue";
 
 export default {
   components: {
     Kontakt,
     Karusell,
-    Termine
+    // Termine
   },
   head: {
     title: {

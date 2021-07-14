@@ -42,8 +42,6 @@
             </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Unsere Sportarten" right>
-            <b-dropdown-item to="/sportarten">Trainingszeiten</b-dropdown-item>
-            <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/sportarten/kunstrad">
               <img src="@/assets/stickmen/logo_kunstrad_q.png" style="width:20px">
               Kunstrad

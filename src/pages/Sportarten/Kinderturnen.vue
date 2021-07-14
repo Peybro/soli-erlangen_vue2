@@ -10,9 +10,6 @@
         <div class="col-9 container">
           <h2 class="section">Kinderturnen</h2>
           <b-alert show variant="primary">
-            <router-link to="/sportarten">
-              <i class="material-icons m-2 float-right">alarm</i>
-            </router-link>
             <p>Dienstag: 17:00 - 18:00 Uhr</p>
           </b-alert>
 
