@@ -8,6 +8,9 @@
     <p class="text-light">
       Rad und Kraftfahrerverein Solidarität Erlangen 1903 e. V.
     </p>
+    <p class="text-light">
+      Gesetzlicher Vertreter: Ralf Häusinger
+    </p>
     <b-navbar-nav class="ml-auto">
       <b-button class="m-2" variant="danger" @click="toTop()">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
